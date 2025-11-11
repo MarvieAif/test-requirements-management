@@ -1,0 +1,13 @@
+settings:
+  digits: 3
+  itemformat: yaml
+  prefix: OP
+  sep: ''
+attributes:
+  defaults:
+    doc:
+      title: "Online Portal"
+      by: "QA Team"
+      major: "1"
+      minor: ".0"
+      copyright: "© 2025 AIF - *All rights reserved*"

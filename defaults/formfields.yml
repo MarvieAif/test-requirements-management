@@ -1,0 +1,21 @@
+# defaults/formfield.yaml
+# Built-in attributes
+UID: ""                 # system unique identifier
+text: ""                # Requirement text; leave blank to fill per item
+active: true            # Flip to false to retire an item later
+derived: false
+normative: true
+
+# Custom attributes (flat keys publish well)
+catalog_id: ""          # Independent internal ID, e.g., RQ-00001
+form_name: ""           # e.g., "Contact Information"
+form_id: ""             # Stable form identifier
+field_name: ""          # e.g., "Home Phone"
+field_id: ""            # Stable field identifier
+tags: []                # e.g., ["ui", "validation", "quickloan"]
+applicant: []                # e.g., ["main", "co"]
+created_date: ""        # ISO date, e.g., "2025-11-10"
+
+# Simple replacement bookkeeping (custom; optional)
+replaces: []            # UIDs this item supersedes, e.g., ["CNI-007"]
+replaced_by: ""         # UID of successor, if any

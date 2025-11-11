@@ -1,0 +1,14 @@
+settings:
+  digits: 3
+  itemformat: yaml
+  parent: APP
+  prefix: APP-QL
+  sep: ''
+attributes:
+  defaults:
+    doc:
+      title: "Quickloan"
+      by: "QA Team"
+      major: "1"
+      minor: ".0"
+      copyright: "© 2025 AIF - *All rights reserved*"

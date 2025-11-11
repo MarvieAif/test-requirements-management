@@ -1,0 +1,14 @@
+settings:
+  digits: 3
+  itemformat: yaml
+  parent: OP
+  prefix: APP
+  sep: ''
+attributes:
+  defaults:
+    doc:
+      title: "Application Section"
+      by: "QA Team"
+      major: "1"
+      minor: ".0"
+      copyright: "© 2025 AIF - *All rights reserved*"
