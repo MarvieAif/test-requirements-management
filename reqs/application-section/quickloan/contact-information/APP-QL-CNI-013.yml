@@ -1,0 +1,21 @@
+active: true
+applicant: []
+catalog_id: 'RQ-00049'
+created_date: '2025-11-11'
+derived: true
+field_name: ''
+field_type: ''
+form_id: 'APP-QL-CNI'
+form_name: 'Contact Information'
+header: 'UI Behavior'
+level: 2.3
+links: []
+normative: true
+ref: ''
+replaced_by: ''
+replaces: []
+reviewed: '2025-11-11'
+tags: []
+text: 'The tab names are "Main Applicant" and "Co-applicant" (if applicable). Main Applicant and Co Applicant displays the sections Contact, Current Address & Previous Address (if applicable).'
+uid: 'APP-QL-CNI-013'
+title: Main Applicant Display

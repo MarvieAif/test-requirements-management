@@ -1,0 +1,21 @@
+active: true
+applicant: []
+catalog_id: 'RQ-00054'
+created_date: '2025-11-11'
+derived: true
+field_name: ''
+field_type: ''
+form_id: 'APP-QL-CNI'
+form_name: 'Contact Information'
+header: 'UI Behavior'
+level: 2.8
+links: []
+normative: true
+ref: ''
+replaced_by: ''
+replaces: []
+reviewed: '2025-11-11'
+tags: []
+text: ' If main applicant passes validation but co-applicant doesnt, tab should automatically switch to co-applicants and vice versa. Applicable inline errors show and applicable toasts show.'
+uid: 'APP-QL-CNI-018'
+title: Tab Focus

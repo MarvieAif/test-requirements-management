@@ -1,0 +1,21 @@
+active: true
+applicant: []
+catalog_id: 'RQ-00053'
+created_date: '2025-11-11'
+derived: true
+field_name: ''
+field_type: ''
+form_id: 'APP-QL-CNI'
+form_name: 'Contact Information'
+header: 'UI Behavior'
+level: 2.7
+links: []
+normative: true
+ref: ''
+replaced_by: ''
+replaces: []
+reviewed: '2025-11-11'
+tags: []
+text: 'If applicant/co-applicant selects the "province" to be other than "Alberta", "British Colombia", "Ontario" or "Quebec", a message will be toasted, preventing them from proceeding.'
+uid: 'APP-QL-CNI-017'
+title: Province Restriction

@@ -1,0 +1,21 @@
+active: true
+applicant: []
+catalog_id: 'RQ-00051'
+created_date: '2025-11-11'
+derived: true
+field_name: ''
+field_type: ''
+form_id: 'APP-QL-CNI'
+form_name: 'Contact Information'
+header: 'UI Behavior'
+level: 2.5
+links: []
+normative: true
+ref: ''
+replaced_by: ''
+replaces: []
+reviewed: '2025-11-11'
+tags: []
+text: 'If co-applicant chooses "yes" for "same address", then main applicant changes their address, the previous radio choice should not persist and switch to "no" automatically.  If co-applicant and main applicant both input the same address (But not living here field), the radio should automatically switch to "yes".  If co-applicant chooses "yes" for "same address", under the section "Does the co-applicant share the same address with the applicant?" the current address section should be disabled, and the address saved into DB should be the same as the main applicant'
+uid: 'APP-QL-CNI-015'
+title: Same Address Display

@@ -1,0 +1,21 @@
+active: true
+applicant: []
+catalog_id: 'RQ-00045'
+created_date: '2025-11-11'
+derived: true
+field_name: ''
+field_type: ''
+form_id: 'APP-QL-CNI'
+form_name: 'Contact Information'
+header: 'Form Fields'
+level: 1.6
+links: []
+normative: true
+ref: ''
+replaced_by: ''
+replaces: []
+reviewed: '2025-11-11'
+tags: []
+text: ''
+uid: 'APP-QL-CNI-009'
+title: Postal Code

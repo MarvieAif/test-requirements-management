@@ -1,0 +1,21 @@
+active: true
+applicant: []
+catalog_id: 'RQ-00048'
+created_date: '2025-11-11'
+derived: true
+field_name: ''
+field_type: ''
+form_id: 'APP-QL-CNI'
+form_name: 'Contact Information'
+header: 'UI Behavior'
+level: 2.2
+links: []
+normative: true
+ref: ''
+replaced_by: ''
+replaces: []
+reviewed: '2025-11-11'
+tags: []
+text: 'Data can be saved into DB for applicant and co-applicant (if applicable). '
+uid: 'APP-QL-CNI-012'
+title: Data can be saved from UI form

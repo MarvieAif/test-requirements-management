@@ -1,0 +1,21 @@
+active: true
+applicant: []
+catalog_id: 'RQ-00050'
+created_date: '2025-11-11'
+derived: true
+field_name: ''
+field_type: ''
+form_id: 'APP-QL-CNI'
+form_name: 'Contact Information'
+header: 'UI Behavior'
+level: 2.4
+links: []
+normative: true
+ref: ''
+replaced_by: ''
+replaces: []
+reviewed: '2025-11-11'
+tags: []
+text: ' The tab names are "Main Applicant" and "Co-applicant" (if applicable). Co-Applicant displays the sections Contact, Current Address & Previous Address (if applicable). However only co-applicant has the section "Does the co-applicant share the same address with the applicant?"'
+uid: 'APP-QL-CNI-014'
+title: Co-applicant Display

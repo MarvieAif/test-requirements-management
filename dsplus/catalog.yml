@@ -199,6 +199,81 @@ items:
   title: Navigation
   type: header
   reqs: []
+- id: APP-QL-CNI-005
+  uid: RQ-00041
+  title: Street Name
+  type: Form Fields
+  reqs: []
+- id: APP-QL-CNI-006
+  uid: RQ-00042
+  title: Unit
+  type: Form Fields
+  reqs: []
+- id: APP-QL-CNI-007
+  uid: RQ-00043
+  title: City
+  type: Form Fields
+  reqs: []
+- id: APP-QL-CNI-008
+  uid: RQ-00044
+  title: Province
+  type: Form Fields
+  reqs: []
+- id: APP-QL-CNI-009
+  uid: RQ-00045
+  title: Postal Code
+  type: Form Fields
+  reqs: []
+- id: APP-QL-CNI-010
+  uid: RQ-00046
+  title: Living Since
+  type: Form Fields
+  reqs: []
+- id: APP-QL-CNI-011
+  uid: RQ-00047
+  title: Data can be fetched and loaded
+  type: UI Behavior
+  reqs: []
+- id: APP-QL-CNI-012
+  uid: RQ-00048
+  title: Data can be saved from UI form
+  type: UI Behavior
+  reqs: []
+- id: APP-QL-CNI-013
+  uid: RQ-00049
+  title: Main Applicant Display
+  type: UI Behavior
+  reqs: []
+- id: APP-QL-CNI-014
+  uid: RQ-00050
+  title: Co-applicant Display
+  type: UI Behavior
+  reqs: []
+- id: APP-QL-CNI-015
+  uid: RQ-00051
+  title: Same Address Display
+  type: UI Behavior
+  reqs: []
+- id: APP-QL-CNI-016
+  uid: RQ-00052
+  title: Google API Adress Autofill
+  type: UI Behavior
+  reqs: []
+- id: APP-QL-CNI-017
+  uid: RQ-00053
+  title: Province Restriction
+  type: UI Behavior
+  reqs: []
+- id: APP-QL-CNI-018
+  uid: RQ-00054
+  title: Tab Focus
+  type: UI Behavior
+  reqs: []
+- id: APP-QL-CNI-019
+  uid: RQ-00055
+  title: Happy Path
+  type: UI Behavior
+  reqs: []
 locations:
 - id: APP-QL-CNI
   location: application-section\quickloan\contact-information
