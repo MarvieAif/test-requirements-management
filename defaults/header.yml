@@ -1,3 +1,6 @@
+uid: ""           # system unique identifier
+title: "" 
+text: ""                 
 active: true
 derived: false
 normative: false

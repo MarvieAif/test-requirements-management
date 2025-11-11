@@ -1,8 +1,10 @@
 # catalog_config.yml (optional helper for your own reference)
-# This file is NOT consumed directly by the script, but you can keep your choices here.
 catalog_prefix: RQ
 width: 5
 registry: catalog_registry.yml
 base_prefix: APP
-root: ./docs
+root: ./reqs
+sep: '-'
 created_date_field: created_date
+digits: 3
+itemformat: "yaml"

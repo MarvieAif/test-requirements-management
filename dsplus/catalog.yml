@@ -1,0 +1,24 @@
+items:
+- id: APP-QL-CNI-001
+  uid: RQ-00001
+  title: Form Fields
+  type: header
+  reqs: []
+- id: APP-QL-CNI-002
+  uid: RQ-00002
+  title: UI Behavior
+  type: header
+  reqs: []
+- id: APP-QL-CNI-003
+  uid: RQ-00003
+  title: Navigation
+  type: header
+  reqs: []
+- id: APP-QL-CNI-004
+  uid: RQ-00004
+  title: must ba B
+  type: Form Fields
+  reqs: []
+locations:
+- id: APP-QL-CNI
+  location: application-section\quickloan\contact-information
