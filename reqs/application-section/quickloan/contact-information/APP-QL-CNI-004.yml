@@ -3,12 +3,12 @@ applicant: []
 catalog_id: 'RQ-00040'
 created_date: '2025-11-11'
 derived: true
-field_name: ''
-field_type: ''
+field_name: 'Street Number'
+field_type: 'Textbox'
 form_id: 'APP-QL-CNI'
 form_name: 'Contact Information'
-header: 'Form Fields'
-level: 1.2
+header: 'Street Number'
+level: 1.1
 links: []
 normative: true
 ref: ''
@@ -16,6 +16,33 @@ replaced_by: ''
 replaces: []
 reviewed: '2025-11-11'
 tags: []
-text: ''
+text: '<h4>Field Specification</h4>
+
+  <div class="table-responsive my-3">
+  <table class="table table-sm table-striped table-bordered align-middle">
+    <caption class="caption-top fw-semibold">Form Fields — APP-QL-CNI-004</caption>
+    <thead class="table-light">
+      <tr>
+        <th scope="col">Field / Variable Name</th>
+        <th scope="col">Multi-Sections to add</th>
+        <th scope="col">Field Type</th>
+        <th scope="col">Values</th>
+        <th scope="col">Mandatory for Request</th>
+        <th scope="col">General Validation Requirements</th>
+        <th scope="col">Special Validation Requirement Related to Requests</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Street Number</td>
+        <td>❌</td>
+        <td>Textbox</td>
+        <td>❌</td>
+        <td>Yes</td>
+        <td>Alphanumeric</td>
+        <td>❌</td>
+      </tr>
+    </tbody>
+  </table> </div>'
 uid: 'APP-QL-CNI-004'
 title: Street Number

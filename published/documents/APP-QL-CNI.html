@@ -39,13 +39,13 @@
         <div class="dropdown-menu">
             <a class="dropdown-item" style="padding-left: 0px" href="#toc">Table of Contents</a>
             <a class="dropdown-item" style="padding-left: 12px" href="#APP-QL-CNI-001">1.0 </a>
-            <a class="dropdown-item" style="padding-left: 24px" href="#APP-QL-CNI-004">1.2 Form Fields</a>
-            <a class="dropdown-item" style="padding-left: 24px" href="#APP-QL-CNI-005">1.2 Form Fields</a>
-            <a class="dropdown-item" style="padding-left: 24px" href="#APP-QL-CNI-006">1.3 Form Fields</a>
-            <a class="dropdown-item" style="padding-left: 24px" href="#APP-QL-CNI-007">1.4 Form Fields</a>
-            <a class="dropdown-item" style="padding-left: 24px" href="#APP-QL-CNI-008">1.5 Form Fields</a>
-            <a class="dropdown-item" style="padding-left: 24px" href="#APP-QL-CNI-009">1.6 Form Fields</a>
-            <a class="dropdown-item" style="padding-left: 24px" href="#APP-QL-CNI-010">1.7 Form Fields</a>
+            <a class="dropdown-item" style="padding-left: 24px" href="#APP-QL-CNI-004">1.1 Street Number</a>
+            <a class="dropdown-item" style="padding-left: 24px" href="#APP-QL-CNI-005">1.2 Street Name</a>
+            <a class="dropdown-item" style="padding-left: 24px" href="#APP-QL-CNI-006">1.3 Unit</a>
+            <a class="dropdown-item" style="padding-left: 24px" href="#APP-QL-CNI-007">1.4 City</a>
+            <a class="dropdown-item" style="padding-left: 24px" href="#APP-QL-CNI-008">1.5 Province</a>
+            <a class="dropdown-item" style="padding-left: 24px" href="#APP-QL-CNI-009">1.6 Postal Code</a>
+            <a class="dropdown-item" style="padding-left: 24px" href="#APP-QL-CNI-010">1.7 Living Since</a>
             <a class="dropdown-item" style="padding-left: 12px" href="#APP-QL-CNI-002">2.0 </a>
             <a class="dropdown-item" style="padding-left: 24px" href="#APP-QL-CNI-011">2.1 UI Behavior</a>
             <a class="dropdown-item" style="padding-left: 24px" href="#APP-QL-CNI-012">2.2 UI Behavior</a>
@@ -85,25 +85,25 @@
               <a href="#APP-QL-CNI-001">1.0 </a>
           </div>
           <div style="padding-left: 24px">
-              <a href="#APP-QL-CNI-004">1.2 Form Fields</a>
+              <a href="#APP-QL-CNI-004">1.1 Street Number</a>
           </div>
           <div style="padding-left: 24px">
-              <a href="#APP-QL-CNI-005">1.2 Form Fields</a>
+              <a href="#APP-QL-CNI-005">1.2 Street Name</a>
           </div>
           <div style="padding-left: 24px">
-              <a href="#APP-QL-CNI-006">1.3 Form Fields</a>
+              <a href="#APP-QL-CNI-006">1.3 Unit</a>
           </div>
           <div style="padding-left: 24px">
-              <a href="#APP-QL-CNI-007">1.4 Form Fields</a>
+              <a href="#APP-QL-CNI-007">1.4 City</a>
           </div>
           <div style="padding-left: 24px">
-              <a href="#APP-QL-CNI-008">1.5 Form Fields</a>
+              <a href="#APP-QL-CNI-008">1.5 Province</a>
           </div>
           <div style="padding-left: 24px">
-              <a href="#APP-QL-CNI-009">1.6 Form Fields</a>
+              <a href="#APP-QL-CNI-009">1.6 Postal Code</a>
           </div>
           <div style="padding-left: 24px">
-              <a href="#APP-QL-CNI-010">1.7 Form Fields</a>
+              <a href="#APP-QL-CNI-010">1.7 Living Since</a>
           </div>
           <div style="padding-left: 12px">
               <a href="#APP-QL-CNI-002">2.0 </a>
@@ -146,13 +146,16 @@
         <div class="card-body">
           <h1 class="h4 mb-3"><p>Contact Information</p></h1>
           <h1 id="APP-QL-CNI-001">1.0 Form Fields</h1>
-<h2 id="APP-QL-CNI-004">1.2 Form Fields <small>APP-QL-CNI-004</small></h2>
-<h2 id="APP-QL-CNI-005">1.2 Form Fields <small>APP-QL-CNI-005</small></h2>
-<h2 id="APP-QL-CNI-006">1.3 Form Fields <small>APP-QL-CNI-006</small></h2>
-<h2 id="APP-QL-CNI-007">1.4 Form Fields <small>APP-QL-CNI-007</small></h2>
-<h2 id="APP-QL-CNI-008">1.5 Form Fields <small>APP-QL-CNI-008</small></h2>
-<h2 id="APP-QL-CNI-009">1.6 Form Fields <small>APP-QL-CNI-009</small></h2>
-<h2 id="APP-QL-CNI-010">1.7 Form Fields <small>APP-QL-CNI-010</small></h2>
+<h2 id="APP-QL-CNI-004">1.1 Street Number <small>APP-QL-CNI-004</small></h2>
+<h4>Field Specification</h4>
+<div class="table-responsive my-3"> <table class="table table-sm table-striped table-bordered align-middle"> <caption class="caption-top fw-semibold">Form Fields — APP-QL-CNI-004</caption> <thead class="table-light"> <tr> <th scope="col">Field / Variable Name</th> <th scope="col">Multi-Sections to add</th> <th scope="col">Field Type</th> <th scope="col">Values</th> <th scope="col">Mandatory for Request</th> <th scope="col">General Validation Requirements</th> <th scope="col">Special Validation Requirement Related to Requests</th> </tr> </thead> <tbody> <tr> <td>Street Number</td> <td>❌</td> <td>Textbox</td> <td>❌</td> <td>Yes</td> <td>Alphanumeric</td> <td>❌</td> </tr> </tbody> </table> </div>
+
+<h2 id="APP-QL-CNI-005">1.2 Street Name <small>APP-QL-CNI-005</small></h2>
+<h2 id="APP-QL-CNI-006">1.3 Unit <small>APP-QL-CNI-006</small></h2>
+<h2 id="APP-QL-CNI-007">1.4 City <small>APP-QL-CNI-007</small></h2>
+<h2 id="APP-QL-CNI-008">1.5 Province <small>APP-QL-CNI-008</small></h2>
+<h2 id="APP-QL-CNI-009">1.6 Postal Code <small>APP-QL-CNI-009</small></h2>
+<h2 id="APP-QL-CNI-010">1.7 Living Since <small>APP-QL-CNI-010</small></h2>
 <h1 id="APP-QL-CNI-002">2.0 UI Behavior</h1>
 <h2 id="APP-QL-CNI-011">2.1 UI Behavior <small>APP-QL-CNI-011</small></h2>
 <p>If exists, Data can be fetched from DB for applicant and co-applicant (if applicable) and loaded into fields otherwise defaults (if applicable) are loaded into fields.</p>
