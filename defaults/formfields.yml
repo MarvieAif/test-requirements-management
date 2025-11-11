@@ -11,6 +11,7 @@ catalog_id: ""          # Independent internal ID, e.g., RQ-00001
 form_name: ""           # e.g., "Contact Information"
 form_id: ""             # Stable form identifier
 field_name: ""          # e.g., "Home Phone"
+field_type: ""          # e.g., Textbox, Special Textbox, Selection, Dropdown, Date Selection
 tags: []                # e.g., ["ui", "validation", "quickloan"]
 applicant: []                # e.g., ["main", "co"]
 created_date: ""        # ISO date, e.g., "2025-11-10"

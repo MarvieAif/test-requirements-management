@@ -1,2 +1,32 @@
-/venv
-/published
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+.env
+.env.*
+
+# Test/coverage
+.pytest_cache/
+.coverage*
+htmlcov/
+
+# Editors/OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Node (if present)
+node_modules/
+
+# Doorstop logs
+doorstop.log
+
+# Keep the GitHub Pages output tracked
+# (these negations only matter if you later add broad ignores)
+!/published/
+!/published/**
+!/published/.nojekyll
