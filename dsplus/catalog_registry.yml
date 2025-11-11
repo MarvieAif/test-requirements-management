@@ -1,5 +1,5 @@
 # catalog_registry.yml
-last_number: 4
+last_number: 39
 type: ["application", "landing"]
 headers:
   application: ["Form Fields", "UI Behavior", "Navigation"]

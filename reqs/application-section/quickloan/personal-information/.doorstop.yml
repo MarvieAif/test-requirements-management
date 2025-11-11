@@ -1,0 +1,14 @@
+settings:
+  digits: 3
+  itemformat: yaml
+  parent: APP-QL
+  prefix: APP-QL-PRI
+  sep: '-'
+attributes:
+  defaults:
+    doc:
+      title: Personal Information
+      by: QA Team
+      major: '0'
+      minor: '.0'
+      copyright: "copyright: '© 2025 AIF - *All rights reserved*'"

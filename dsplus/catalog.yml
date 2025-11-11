@@ -19,6 +19,210 @@ items:
   title: must ba B
   type: Form Fields
   reqs: []
+- id: APP-QL-PRI-001
+  uid: RQ-00004
+  title: Form Fields
+  type: header
+  reqs: []
+- id: APP-QL-PRI-002
+  uid: RQ-00005
+  title: UI Behavior
+  type: header
+  reqs: []
+- id: APP-QL-PRI-003
+  uid: RQ-00006
+  title: Navigation
+  type: header
+  reqs: []
+- id: APP-QL-IDV-001
+  uid: RQ-00007
+  title: Form Fields
+  type: header
+  reqs: []
+- id: APP-QL-IDV-002
+  uid: RQ-00008
+  title: UI Behavior
+  type: header
+  reqs: []
+- id: APP-QL-IDV-003
+  uid: RQ-00009
+  title: Navigation
+  type: header
+  reqs: []
+- id: APP-QL-TAX-001
+  uid: RQ-00010
+  title: Form Fields
+  type: header
+  reqs: []
+- id: APP-QL-TAX-002
+  uid: RQ-00011
+  title: UI Behavior
+  type: header
+  reqs: []
+- id: APP-QL-TAX-003
+  uid: RQ-00012
+  title: Navigation
+  type: header
+  reqs: []
+- id: APP-QL-EMP-001
+  uid: RQ-00013
+  title: Form Fields
+  type: header
+  reqs: []
+- id: APP-QL-EMP-002
+  uid: RQ-00014
+  title: UI Behavior
+  type: header
+  reqs: []
+- id: APP-QL-EMP-003
+  uid: RQ-00015
+  title: Navigation
+  type: header
+  reqs: []
+- id: APP-QL-DSC-001
+  uid: RQ-00016
+  title: Form Fields
+  type: header
+  reqs: []
+- id: APP-QL-DSC-002
+  uid: RQ-00017
+  title: UI Behavior
+  type: header
+  reqs: []
+- id: APP-QL-DSC-003
+  uid: RQ-00018
+  title: Navigation
+  type: header
+  reqs: []
+- id: APP-QL-SCN-001
+  uid: RQ-00019
+  title: Form Fields
+  type: header
+  reqs: []
+- id: APP-QL-SCN-002
+  uid: RQ-00020
+  title: UI Behavior
+  type: header
+  reqs: []
+- id: APP-QL-SCN-003
+  uid: RQ-00021
+  title: Navigation
+  type: header
+  reqs: []
+- id: APP-QL-COP-001
+  uid: RQ-00022
+  title: Form Fields
+  type: header
+  reqs: []
+- id: APP-QL-COP-002
+  uid: RQ-00023
+  title: UI Behavior
+  type: header
+  reqs: []
+- id: APP-QL-COP-003
+  uid: RQ-00024
+  title: Navigation
+  type: header
+  reqs: []
+- id: APP-QL-PGL-001
+  uid: RQ-00025
+  title: Form Fields
+  type: header
+  reqs: []
+- id: APP-QL-PGL-002
+  uid: RQ-00026
+  title: UI Behavior
+  type: header
+  reqs: []
+- id: APP-QL-PGL-003
+  uid: RQ-00027
+  title: Navigation
+  type: header
+  reqs: []
+- id: APP-QL-RST-001
+  uid: RQ-00028
+  title: Form Fields
+  type: header
+  reqs: []
+- id: APP-QL-RST-002
+  uid: RQ-00029
+  title: UI Behavior
+  type: header
+  reqs: []
+- id: APP-QL-RST-003
+  uid: RQ-00030
+  title: Navigation
+  type: header
+  reqs: []
+- id: APP-QL-FNA-001
+  uid: RQ-00031
+  title: Form Fields
+  type: header
+  reqs: []
+- id: APP-QL-FNA-002
+  uid: RQ-00032
+  title: UI Behavior
+  type: header
+  reqs: []
+- id: APP-QL-FNA-003
+  uid: RQ-00033
+  title: Navigation
+  type: header
+  reqs: []
+- id: APP-QL-PBN-001
+  uid: RQ-00034
+  title: Form Fields
+  type: header
+  reqs: []
+- id: APP-QL-PBN-002
+  uid: RQ-00035
+  title: UI Behavior
+  type: header
+  reqs: []
+- id: APP-QL-PBN-003
+  uid: RQ-00036
+  title: Navigation
+  type: header
+  reqs: []
+- id: APP-QL-SBN-001
+  uid: RQ-00037
+  title: Form Fields
+  type: header
+  reqs: []
+- id: APP-QL-SBN-002
+  uid: RQ-00038
+  title: UI Behavior
+  type: header
+  reqs: []
+- id: APP-QL-SBN-003
+  uid: RQ-00039
+  title: Navigation
+  type: header
+  reqs: []
 locations:
 - id: APP-QL-CNI
   location: application-section\quickloan\contact-information
+- id: APP-QL-PRI
+  location: application-section\quickloan\personal-information
+- id: APP-QL-IDV
+  location: application-section\quickloan\ID-VERIFICAITON
+- id: APP-QL-TAX
+  location: application-section\quickloan\tax-status
+- id: APP-QL-EMP
+  location: application-section\quickloan\employment
+- id: APP-QL-DSC
+  location: application-section\quickloan\disclosure
+- id: APP-QL-SCN
+  location: application-section\quickloan\source-of-contribution
+- id: APP-QL-COP
+  location: application-section\quickloan\contribution-option
+- id: APP-QL-PGL
+  location: application-section\quickloan\policy-gaurantee-level
+- id: APP-QL-RST
+  location: application-section\quickloan\residential-status
+- id: APP-QL-FNA
+  location: application-section\quickloan\financial-analysis
+- id: APP-QL-PBN
+  location: application-section\quickloan\primary-beneficiaries
+- id: APP-QL-SBN
+  location: application-section\quickloan\secondary-beneficiaries

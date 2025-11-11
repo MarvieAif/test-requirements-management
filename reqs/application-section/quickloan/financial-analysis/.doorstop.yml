@@ -1,0 +1,14 @@
+settings:
+  digits: 3
+  itemformat: yaml
+  parent: APP-QL
+  prefix: APP-QL-FNA
+  sep: '-'
+attributes:
+  defaults:
+    doc:
+      title: Financial Analysis
+      by: QA Team
+      major: '0'
+      minor: '.0'
+      copyright: "copyright: '© 2025 AIF - *All rights reserved*'"

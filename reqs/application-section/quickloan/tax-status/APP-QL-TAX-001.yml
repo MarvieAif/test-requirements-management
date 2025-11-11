@@ -1,0 +1,17 @@
+active: true
+catalog_id: RQ-00010
+created_date: '2025-11-11'
+derived: false
+form_id: APP-QL-TAX
+form_name: Tax Status
+header: |
+  Form Fields
+level: 1.0
+links: []
+normative: false
+ref: ''
+reviewed: '2025-11-11'
+tags: []
+text: ''
+title: Form Fields
+uid: APP-QL-TAX-001

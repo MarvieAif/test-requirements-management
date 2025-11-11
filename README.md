@@ -132,7 +132,7 @@ doorstop add APP-QL-CNI -d defaults/formfields.yml
 # Validate documents
 doorstop validate
 
-# Publish (HTML)
+# Publish (HTML) with CSS
 doorstop doorstop publish all ./published --template mybrand --index
 ```
 
