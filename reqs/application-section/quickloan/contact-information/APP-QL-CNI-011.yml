@@ -3,6 +3,12 @@ applicant: []
 catalog_id: RQ-00047
 created_date: '2025-11-11'
 derived: true
+doc:
+  by: QA Team
+  copyright: 'copyright: ''© 2025 AIF - *All rights reserved*'''
+  major: '0'
+  minor: '.0'
+  title: Contact Information
 field_name: ''
 field_type: ''
 form_id: APP-QL-CNI
@@ -21,9 +27,3 @@ text: |
   If exists, Data can be fetched from DB for applicant and co-applicant (if applicable) and loaded into fields otherwise defaults (if applicable) are loaded into fields.
 title: Data can be fetched and loaded
 uid: APP-QL-CNI-011
-doc:
-  by: QA Team
-  copyright: 'copyright: ''© 2025 AIF - *All rights reserved*'''
-  major: '0'
-  minor: '.0'
-  title: Contact Information

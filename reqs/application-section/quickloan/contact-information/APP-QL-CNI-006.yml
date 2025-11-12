@@ -3,6 +3,12 @@ applicant: []
 catalog_id: RQ-00042
 created_date: '2025-11-11'
 derived: true
+doc:
+  by: QA Team
+  copyright: 'copyright: ''© 2025 AIF - *All rights reserved*'''
+  major: '0'
+  minor: '.0'
+  title: Contact Information
 field_name: ''
 field_type: ''
 form_id: APP-QL-CNI
@@ -20,9 +26,3 @@ tags: []
 text: ''
 title: Unit
 uid: APP-QL-CNI-006
-doc:
-  by: QA Team
-  copyright: 'copyright: ''© 2025 AIF - *All rights reserved*'''
-  major: '0'
-  minor: '.0'
-  title: Contact Information
