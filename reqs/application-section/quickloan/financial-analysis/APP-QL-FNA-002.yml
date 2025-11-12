@@ -1,16 +1,17 @@
 active: true
+catalog_id: RQ-00032
+created_date: '2025-11-11'
 derived: false
-header: 'UI Behavior'
+form_id: APP-QL-FNA
+form_name: Financial Analysis
+header: |
+  UI Behavior
 level: 2.0
 links: []
 normative: false
 ref: ''
 reviewed: '2025-11-11'
-text: ''
-title: 'UI Behavior'
-uid: 'APP-QL-FNA-002'
-catalog_id: RQ-00032
-created_date: '2025-11-11'
-form_id: APP-QL-FNA
-form_name: Financial Analysis
 tags: []
+text: ''
+title: UI Behavior
+uid: APP-QL-FNA-002

@@ -1,16 +1,20 @@
 # defaults/formfield.yaml
 # Built-in attributes
+active: true          # Flip to false to retire an item later
+derived: false
+normative: true
+doc:
+  by: QA Team
+  copyright: 'copyright: ''© 2025 AIF - *All rights reserved*'''
+  major: '0'
+  minor: '.0'
 uid: ""                 # system unique identifier
 text: ""                # Requirement text; leave blank to fill per item
-active: true            # Flip to false to retire an item later
-derived: true
-normative: true
-
 # Custom attributes (flat keys publish well)
 catalog_id: ""          # Independent internal ID, e.g., RQ-00001
 form_name: ""           # e.g., "Contact Information"
 form_id: ""             # Stable form identifier
-field_name: ""          # e.g., "Home Phone"
+field_name: ""          # e.g., "Home Phone" // header
 field_type: ""          # e.g., Textbox, Special Textbox, Selection, Dropdown, Date Selection
 tags: []                # e.g., ["ui", "validation", "quickloan"]
 applicant: []                # e.g., ["main", "co"]

@@ -1,13 +1,14 @@
 active: true
 applicant: []
-catalog_id: 'RQ-00042'
+catalog_id: RQ-00042
 created_date: '2025-11-11'
 derived: true
 field_name: ''
 field_type: ''
-form_id: 'APP-QL-CNI'
-form_name: 'Contact Information'
-header: 'Unit'
+form_id: APP-QL-CNI
+form_name: Contact Information
+header: |
+  Unit
 level: 1.3
 links: []
 normative: true
@@ -17,5 +18,11 @@ replaces: []
 reviewed: '2025-11-11'
 tags: []
 text: ''
-uid: 'APP-QL-CNI-006'
 title: Unit
+uid: APP-QL-CNI-006
+doc:
+  by: QA Team
+  copyright: 'copyright: ''© 2025 AIF - *All rights reserved*'''
+  major: '0'
+  minor: '.0'
+  title: Contact Information

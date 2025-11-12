@@ -5,7 +5,7 @@ derived: false
 form_id: APP-QL-CNI
 form_name: Contact Information
 header: |
-  Navigation
+  Section Outcomes
 level: 3.0
 links: []
 normative: false
@@ -13,5 +13,5 @@ ref: ''
 reviewed: '2025-11-11'
 tags: []
 text: ''
-title: Navigation
+title: Section Outcomes
 uid: APP-QL-CNI-003

@@ -1,13 +1,14 @@
 active: true
 applicant: []
-catalog_id: 'RQ-00054'
+catalog_id: RQ-00054
 created_date: '2025-11-11'
 derived: true
 field_name: ''
 field_type: ''
-form_id: 'APP-QL-CNI'
-form_name: 'Contact Information'
-header: 'UI Behavior'
+form_id: APP-QL-CNI
+form_name: Contact Information
+header: |
+  UI Behavior
 level: 2.8
 links: []
 normative: true
@@ -16,6 +17,13 @@ replaced_by: ''
 replaces: []
 reviewed: '2025-11-11'
 tags: []
-text: ' If main applicant passes validation but co-applicant doesnt, tab should automatically switch to co-applicants and vice versa. Applicable inline errors show and applicable toasts show.'
-uid: 'APP-QL-CNI-018'
+text: |2
+   If main applicant passes validation but co-applicant doesnt, tab should automatically switch to co-applicants and vice versa. Applicable inline errors show and applicable toasts show.
 title: Tab Focus
+uid: APP-QL-CNI-018
+doc:
+  by: QA Team
+  copyright: 'copyright: ''© 2025 AIF - *All rights reserved*'''
+  major: '0'
+  minor: '.0'
+  title: Contact Information

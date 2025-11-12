@@ -1,13 +1,14 @@
 active: true
 applicant: []
-catalog_id: 'RQ-00052'
+catalog_id: RQ-00052
 created_date: '2025-11-11'
 derived: true
 field_name: ''
 field_type: ''
-form_id: 'APP-QL-CNI'
-form_name: 'Contact Information'
-header: 'UI Behavior'
+form_id: APP-QL-CNI
+form_name: Contact Information
+header: |
+  UI Behavior
 level: 2.6
 links: []
 normative: true
@@ -16,6 +17,13 @@ replaced_by: ''
 replaces: []
 reviewed: '2025-11-11'
 tags: []
-text: 'If applicant/co-applicant search for the address and click on an address from the drop-down, the "street number", "city", "postal code",  "street name", "province" and possibly "unit" fields should be automatically filled.'
-uid: 'APP-QL-CNI-016'
+text: |
+  If applicant/co-applicant search for the address and click on an address from the drop-down, the "street number", "city", "postal code",  "street name", "province" and possibly "unit" fields should be automatically filled.
 title: Google API Adress Autofill
+uid: APP-QL-CNI-016
+doc:
+  by: QA Team
+  copyright: 'copyright: ''© 2025 AIF - *All rights reserved*'''
+  major: '0'
+  minor: '.0'
+  title: Contact Information

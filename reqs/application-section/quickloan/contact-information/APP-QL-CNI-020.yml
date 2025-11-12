@@ -1,6 +1,6 @@
 active: true
 applicant: []
-catalog_id: RQ-00055
+catalog_id: RQ-00056
 created_date: '2025-11-11'
 derived: true
 field_name: ''
@@ -8,8 +8,8 @@ field_type: ''
 form_id: APP-QL-CNI
 form_name: Contact Information
 header: |
-  UI Behavior
-level: 2.9
+  Home Phone
+level: 1.8
 links: []
 normative: true
 ref: ''
@@ -17,10 +17,9 @@ replaced_by: ''
 replaces: []
 reviewed: '2025-11-11'
 tags: []
-text: |
-  If main applicant passes validation and (if applicable) co-applicant passes, then relevant data saves, toasts and inline errors are cleared and user is able to move on to the next section.
-title: Happy Path
-uid: APP-QL-CNI-019
+text: ''
+title: Home Phone
+uid: APP-QL-CNI-020
 doc:
   by: QA Team
   copyright: 'copyright: ''© 2025 AIF - *All rights reserved*'''

@@ -1,13 +1,14 @@
 active: true
 applicant: []
-catalog_id: 'RQ-00053'
+catalog_id: RQ-00053
 created_date: '2025-11-11'
 derived: true
 field_name: ''
 field_type: ''
-form_id: 'APP-QL-CNI'
-form_name: 'Contact Information'
-header: 'UI Behavior'
+form_id: APP-QL-CNI
+form_name: Contact Information
+header: |
+  UI Behavior
 level: 2.7
 links: []
 normative: true
@@ -16,6 +17,13 @@ replaced_by: ''
 replaces: []
 reviewed: '2025-11-11'
 tags: []
-text: 'If applicant/co-applicant selects the "province" to be other than "Alberta", "British Colombia", "Ontario" or "Quebec", a message will be toasted, preventing them from proceeding.'
-uid: 'APP-QL-CNI-017'
+text: |
+  If applicant/co-applicant selects the "province" to be other than "Alberta", "British Colombia", "Ontario" or "Quebec", a message will be toasted, preventing them from proceeding.
 title: Province Restriction
+uid: APP-QL-CNI-017
+doc:
+  by: QA Team
+  copyright: 'copyright: ''© 2025 AIF - *All rights reserved*'''
+  major: '0'
+  minor: '.0'
+  title: Contact Information

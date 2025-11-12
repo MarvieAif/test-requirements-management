@@ -1,0 +1,27 @@
+active: true
+applicant:
+- main
+- co
+catalog_id: RQ-00057
+created_date: '2025-11-11'
+derived: true
+field_name: Street Number
+field_type: txtbox
+form_id: APP-QL-CNI
+form_name: Contact Information
+graph_type: vertex
+header: |
+  Previous Street Number
+level: 1.9
+links: []
+normative: true
+precondition:
+- APP-QL-CNI-010
+ref: ''
+replaced_by: ''
+replaces: []
+reviewed: '2025-11-11'
+tags: []
+text: ''
+title: Previous Street Number
+uid: APP-QL-CNI-021

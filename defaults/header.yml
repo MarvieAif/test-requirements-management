@@ -1,6 +1,11 @@
 uid: ""           # system unique identifier
 title: "" 
 text: ""                 
-active: true
-derived: false
+active: true          # Flip to false to retire an item later
+derived: true
 normative: false
+doc:
+  by: QA Team
+  copyright: 'copyright: ''© 2025 AIF - *All rights reserved*'''
+  major: '0'
+  minor: '.0'

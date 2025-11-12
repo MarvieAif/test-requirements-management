@@ -1,16 +1,17 @@
 active: true
+catalog_id: RQ-00034
+created_date: '2025-11-11'
 derived: false
-header: 'Form Fields'
+form_id: APP-QL-PBN
+form_name: Primary Beneficiaries
+header: |
+  Form Fields
 level: 1.0
 links: []
 normative: false
 ref: ''
 reviewed: '2025-11-11'
-text: ''
-title: 'Form Fields'
-uid: 'APP-QL-PBN-001'
-catalog_id: RQ-00034
-created_date: '2025-11-11'
-form_id: APP-QL-PBN
-form_name: Primary Beneficiaries
 tags: []
+text: ''
+title: Form Fields
+uid: APP-QL-PBN-001

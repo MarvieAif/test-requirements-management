@@ -1,13 +1,14 @@
 active: true
 applicant: []
-catalog_id: 'RQ-00046'
+catalog_id: RQ-00046
 created_date: '2025-11-11'
 derived: true
 field_name: ''
 field_type: ''
-form_id: 'APP-QL-CNI'
-form_name: 'Contact Information'
-header: 'Living Since'
+form_id: APP-QL-CNI
+form_name: Contact Information
+header: |
+  Living Since
 level: 1.7
 links: []
 normative: true
@@ -17,5 +18,11 @@ replaces: []
 reviewed: '2025-11-11'
 tags: []
 text: ''
-uid: 'APP-QL-CNI-010'
 title: Living Since
+uid: APP-QL-CNI-010
+doc:
+  by: QA Team
+  copyright: 'copyright: ''© 2025 AIF - *All rights reserved*'''
+  major: '0'
+  minor: '.0'
+  title: Contact Information

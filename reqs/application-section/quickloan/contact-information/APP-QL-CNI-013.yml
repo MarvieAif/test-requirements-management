@@ -1,13 +1,14 @@
 active: true
 applicant: []
-catalog_id: 'RQ-00049'
+catalog_id: RQ-00049
 created_date: '2025-11-11'
 derived: true
 field_name: ''
 field_type: ''
-form_id: 'APP-QL-CNI'
-form_name: 'Contact Information'
-header: 'UI Behavior'
+form_id: APP-QL-CNI
+form_name: Contact Information
+header: |
+  UI Behavior
 level: 2.3
 links: []
 normative: true
@@ -16,6 +17,13 @@ replaced_by: ''
 replaces: []
 reviewed: '2025-11-11'
 tags: []
-text: 'The tab names are "Main Applicant" and "Co-applicant" (if applicable). Main Applicant and Co Applicant displays the sections Contact, Current Address & Previous Address (if applicable).'
-uid: 'APP-QL-CNI-013'
+text: |
+  The tab names are "Main Applicant" and "Co-applicant" (if applicable). Main Applicant and Co Applicant displays the sections Contact, Current Address & Previous Address (if applicable).
 title: Main Applicant Display
+uid: APP-QL-CNI-013
+doc:
+  by: QA Team
+  copyright: 'copyright: ''© 2025 AIF - *All rights reserved*'''
+  major: '0'
+  minor: '.0'
+  title: Contact Information

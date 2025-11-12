@@ -1,8 +1,8 @@
 # catalog_registry.yml
-last_number: 55
+last_number: 58
 type: ["application", "landing"]
 headers:
-  application: ["Form Fields", "UI Behavior", "Navigation"]
+  application: ["Form Fields", "UI Behavior", "Section Outcomes"]
 requirements:
   schema: ["Required", "Special Required", "General Validation", "Special Validation"]
   toast: ["Missing Info", "Required Info", "Special Validation"]

@@ -1,16 +1,17 @@
 active: true
+catalog_id: RQ-00037
+created_date: '2025-11-11'
 derived: false
-header: 'Form Fields'
+form_id: APP-QL-SBN
+form_name: Secondary Beneficiaries
+header: |
+  Form Fields
 level: 1.0
 links: []
 normative: false
 ref: ''
 reviewed: '2025-11-11'
-text: ''
-title: 'Form Fields'
-uid: 'APP-QL-SBN-001'
-catalog_id: RQ-00037
-created_date: '2025-11-11'
-form_id: APP-QL-SBN
-form_name: Secondary Beneficiaries
 tags: []
+text: ''
+title: Form Fields
+uid: APP-QL-SBN-001
