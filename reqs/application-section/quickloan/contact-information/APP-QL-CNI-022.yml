@@ -15,7 +15,8 @@ header: |
 level: 1.9
 links: []
 normative: true
-precondition: APP-QL-CNI-010
+precondition:
+- APP-QL-CNI-010
 ref: ''
 replaced_by: ''
 replaces: []

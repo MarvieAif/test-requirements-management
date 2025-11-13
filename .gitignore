@@ -32,3 +32,5 @@ doorstop.log
 !/published/.nojekyll
 
 out/
+__pycache__/
+*.py[cod]
