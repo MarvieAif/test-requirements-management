@@ -1,7 +1,7 @@
 import argparse
 import json
-from typing import Any, Dict, Iterable, List, Optional
-
+from typing import Any, Dict, Iterable, List, Optional, Tuple
+import re
 
 Step = Dict[str, Any]
 Path = List[Step]
@@ -37,6 +37,39 @@ def _find_next_vertex(path: Path, idx: int) -> Optional[Step]:
             return path[j]
     return None
 
+def dedupe_cases(cases: Iterable[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Remove duplicate test-case objects.
+
+    Two cases are considered duplicates if:
+      - they have the same `name`, and
+      - their `steps` arrays have the same length and identical contents.
+
+    Returns a new list, preserving the first occurrence of each unique case.
+    """
+    seen: set[Tuple[str, Tuple[str, ...]]] = set()
+    unique: List[Dict[str, Any]] = []
+
+    for case in cases:
+        name = str(case.get("name", ""))
+        steps = case.get("steps", [])
+
+        # Normalise steps to a tuple of strings
+        if not isinstance(steps, list):
+            steps = [str(steps)]
+        else:
+            steps = [str(s) for s in steps]
+
+        key = (name, tuple(steps))
+
+        if key in seen:
+            # Duplicate -> skip
+            continue
+
+        seen.add(key)
+        unique.append(case)
+
+    return unique
 
 # -------------------------
 # Utilities: text building
@@ -102,7 +135,45 @@ def _summarise_actions(step: Step) -> str:
 # Core: build human strings
 # -------------------------
 
+def _format_vertex_description(raw_name: str) -> str:
+    """Turn a vertex name like 'v_ContactDetailForm' into 'Contact Detail Form'."""
+    name = raw_name
 
+    if name.startswith("v_"):
+        name = name[2:]
+    elif name.startswith("v") and len(name) > 1 and name[1].isupper():
+        # Handle names like 'vContactDetailForm'
+        name = name[1:]
+
+    # Split on underscores first
+    segments = [seg for seg in name.split("_") if seg]
+
+    words: List[str] = []
+    for seg in segments:
+        # Split CamelCase into pieces
+        parts = re.split(r"(?<!^)(?=[A-Z])", seg)
+        for p in parts:
+            p = p.strip()
+            if not p:
+                continue
+            words.append(p.capitalize())
+
+    return " ".join(words) if words else raw_name
+
+def _format_edge_description(raw_name: str) -> str:
+    """Turn an edge name like 'e_load_default_data' into 'Load default data'."""
+    name = raw_name
+    if name.startswith("e_"):
+        name = name[2:]
+
+    parts = [p for p in name.split("_") if p]
+    if not parts:
+        return raw_name
+
+    first = parts[0].capitalize()
+    rest = [p.lower() for p in parts[1:]]
+    return " ".join([first] + rest)
+    
 def build_step_strings_for_path(path: Path) -> List[str]:
     """Convert a single path (list of steps) into human-readable lines.
 
@@ -112,47 +183,56 @@ def build_step_strings_for_path(path: Path) -> List[str]:
     - 'results in' points to the nearest vertex *after* the edge;
       if none exists (e.g. final e_restart_test), we fall back to the
       nearest vertex *before* the edge.
-    - Step numbers match the 1-based index in the original path, so they
-      line up with raw logs (edges will have gaps between them).
-    - Step [1] is a synthetic 'start at ...' based on the first vertex.
+    - Step numbers are sequential within this path:
+      Step [1] is a synthetic START TEST line (if we find a vertex),
+      then each edge increments the step number.
     """
     lines: List[str] = []
 
     # Step 1: synthetic start from first vertex, if present
     first_vertex = next((s for s in path if _is_vertex(s)), None)
+    step_num = 0
+
     if first_vertex is not None:
-        start_reqs = _normalise_requirements(first_vertex)
-        req_text = ", ".join(start_reqs) if start_reqs else "None"
-        lines.append(
-            f"Step [1] start at {first_vertex['name']} with data"
-            f" -> changed: None"
-            f" -> meets requirements: {req_text}"
-        )
+        step_num = 1
+        lines.append("Step [1] START TEST")
 
     # One line per edge
     for idx, step in enumerate(path):
         if not _is_edge(step):
             continue
 
+        step_num += 1
+
         # Nearest vertices before/after this edge
         prev_vertex = _find_prev_vertex(path, idx)
         next_vertex = _find_next_vertex(path, idx)
         target_vertex = next_vertex or prev_vertex
 
-        target_name = target_vertex["name"] if target_vertex else "<no vertex>"
+        if target_vertex:
+            target_name = _format_vertex_description(target_vertex["name"])
+        else:
+            target_name = "<no vertex>"
 
         changed = _summarise_actions(step)
-        reqs = _normalise_requirements(step, target_vertex)
-        req_text = ", ".join(reqs) if reqs else "None"
 
-        step_no = idx + 1  # match original path index
+        # Only show requirements if we actually have some
+        reqs = _normalise_requirements(step, target_vertex)
+        if reqs:
+            req_part = f" -> meets requirements: {', '.join(reqs)}"
+        else:
+            req_part = ""
+
+        human_edge = _format_edge_description(step["name"])
 
         lines.append(
-            f"Step [{step_no}] perform {step['name']}"
+            f"Step [{step_num}] {human_edge}"
             f" -> results in {target_name} with data"
             f" -> changed: {changed}"
-            f" -> meets requirements: {req_text}"
+            f"{req_part}"
         )
+
+    lines.append(f"Step [{step_num + 1}] END TEST")
 
     return lines
 
@@ -285,7 +365,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         else:
             paths = data  # type: ignore[assignment]
 
-        cases = paths_to_cases(paths)
+        cases = dedupe_cases(paths_to_cases(paths))
         with open(args.output, "w", encoding="utf-8") as f:
             json.dump(cases, f, indent=2, ensure_ascii=False)
 
